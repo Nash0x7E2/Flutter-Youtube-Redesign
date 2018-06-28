@@ -2,7 +2,7 @@
 
 Original Design        |  Flutter Version
 :-------------------------:|:-------------------------:
-![original-design](https://assets.materialup.com/uploads/921bb662-d1a0-4b44-a9ec-5a21d9a2f24d/attachment.png)  |   ![](https://pbs.twimg.com/media/DgVNBJXUYAAOQyl.jpg)
+![original-design](https://pbs.twimg.com/media/DgVNCDaVMAAbKFx.jpg)  |   ![](https://pbs.twimg.com/media/DgVNBJXUYAAOQyl.jpg)
 
 
 
