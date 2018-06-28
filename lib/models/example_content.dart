@@ -1,6 +1,5 @@
 import 'package:youtube_redesign/models/youtube_card_content.dart';
 
-
 class ExampleContent {
   static List<YoutubeCardContent> exampleVideos = [
     YoutubeCardContent(

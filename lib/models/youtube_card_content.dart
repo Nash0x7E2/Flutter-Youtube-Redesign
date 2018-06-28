@@ -9,7 +9,6 @@ class YoutubeCardContent {
     @required this.channelName,
     @required this.views,
     @required this.createdAt,
-    @required this.videoUrl,
   });
 
   final String videoThumbnailUrl;
@@ -19,5 +18,4 @@ class YoutubeCardContent {
   final String channelName;
   final int views;
   final String createdAt;
-  final String videoUrl;
 }

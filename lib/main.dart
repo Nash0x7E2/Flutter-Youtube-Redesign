@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:youtube_redesign/models/example_content.dart';
-import 'package:youtube_redesign/views/pages/player_page.dart';
 import 'package:youtube_redesign/views/youtube_card.dart';
 
 void main() {
@@ -88,8 +87,9 @@ class YoutubeBody extends StatelessWidget {
           itemCount: ExampleContent.exampleVideos.length,
           itemBuilder: (BuildContext context, int index) {
             return InkResponse(
-              onTap: () =>
-                  PlayerPage.routeTo(context: context, video: ExampleContent.exampleVideos[index]),
+              onTap: () => Scaffold.of(context).showSnackBar(SnackBar(
+                    content: Text(ExampleContent.exampleVideos[index].title),
+                  )),
               child: YoutubeCard(content: ExampleContent.exampleVideos[index]),
             );
           },
